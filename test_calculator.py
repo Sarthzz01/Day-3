@@ -1,5 +1,5 @@
 import pytest 
-from calculator import add,sub
+from calculator import add,sub,div,mul
 
 def test_add():
     assert add(4,5)==9
@@ -15,4 +15,4 @@ def test_mul():
 
 def test_div():
     assert div(4,2)==2
-    assert div(1,1)==1
+    assert div(2,1)==2
