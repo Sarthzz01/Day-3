@@ -8,3 +8,11 @@ def test_add():
 def test_sub():
     assert sub(4,2)==2
     assert sub(1,1)==0
+
+def test_mul():
+    assert mul(4,2)==8
+    assert mul(1,1)==1
+
+def test_div():
+    assert div(4,2)==2
+    assert div(1,1)==1
